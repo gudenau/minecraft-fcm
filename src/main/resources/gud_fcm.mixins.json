@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.fabricmc.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "plugin": "net.gudenau.minecraft.fcm.Plugin",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_fcm",
+  "version": "${version}",
+
+  "name": "FCM",
+  "description": "Let's break everything with core mods",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "https://github.com/gudenau/minecraft-fcm",
+    "sources": "https://github.com/gudenau/minecraft-fcm"
+  },
+
+  "license": "",
+  "icon": "assets/gud_fcm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gudenau.minecraft.fcm.FabricCoreMods"
+    ]
+  },
+  "mixins": [
+    "gud_fcm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {}
+}
